@@ -1,0 +1,120 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 60px 20px 10px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+    margin: 0 0 15px;
+}
+
+.form-wrapper input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 25px;
+    border: white 1px solid;
+    text-align: center;
+    font-size: large;
+}
+
+.form-wrapper button {
+    border: 0;
+    color: #ffffff;
+    background: #da1e26;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+    opacity: 0.8;
+}
+
+
+.form-wrapper {
+    margin: 20px;
+}
+
+.form-wrapper,
+.form-wrapper label {
+    text-align: center;
+    display: block;
+}
+
+.form-wrapper label {
+    margin: 10px auto 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.form-wrapper input:focus {
+    border: lightcoral 3px solid;
+    outline: none;
+}
+
+.form-wrapper button {
+    margin-top: 20px;
+    height: 50px;
+    font-weight: bold;
+    background-color: #da1e26;
+    padding: 0 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: transparent;
+    color: white;
+}
+
+.form-wrapper button:hover {
+    background-color: red;
+}
